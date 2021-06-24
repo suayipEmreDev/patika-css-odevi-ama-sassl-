@@ -1,0 +1,160 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Header*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  background-color: #e4fbff;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.header .nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav_list li {
+  padding: 2rem;
+}
+
+.header .nav_list li a {
+  font-size: 1.2rem;
+  -webkit-transition: color 2s;
+  transition: color 2s;
+}
+
+.header .nav_list li a:hover {
+  color: #000;
+}
+
+/*ARTİCLE 2*/
+#article {
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+#article img {
+  max-width: 23%;
+  height: auto;
+}
+
+#article .container {
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+}
+
+/*contact*/
+#contact {
+  width: 100%;
+  background-color: #e0eae7;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#contact .aciklama {
+  padding-left: 1rem;
+}
+
+#contact ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact ul li {
+  padding: 1rem;
+}
+
+#contact ul a i {
+  color: #000;
+}
+
+/*FORM*/
+#contact-form {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background-color: #e0eae7;
+  text-align: center;
+}
+
+#contact-form .gender {
+  font-size: 1.2rem;
+}
+
+#contact-form .gender #erkek {
+  padding: 2rem;
+}
+
+#contact-form input[type="radio"] {
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+#contact-form form {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+#contact-form form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  height: 3rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+#contact-form form input[type="submit"],
+#contact-form input[type="reset"] {
+  width: 30%;
+  height: 2rem;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
