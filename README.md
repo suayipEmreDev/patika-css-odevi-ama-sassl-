@@ -1,1 +1,1 @@
-# patika-css-odevi-ama-sassl-
+# patika-css-odevi-ama-sassli-
